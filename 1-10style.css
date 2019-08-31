@@ -1,0 +1,634 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #ec715f;
+}
+
+.contents{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 70px;
+}
+
+nav{
+	text-align: right;
+	float: right;
+	line-height: 70px;
+}
+
+.nav-list-item{
+	font-size: 16px;
+	color: #fafafa;
+	padding: 0 30px;
+}
+
+.main-visual{
+	height: 650px;
+	width: 100%;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	margin: auto 0;
+}
+
+.mvtitle{
+	color: #fafafa;
+	font-size: 64px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.mvtxt{
+	color: #fafafa;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.portfolio{
+	width: 100%;
+	height: 100%;
+	background-color: #ECEFF1;
+}
+
+.porttitle{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+	font-weight: bold;
+}
+
+.akasen{
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin-top:8px;
+	margin:0 auto;
+}
+
+.ptxt{
+	font-size: 16px;
+	color: #000000;
+	margin:0 auto;
+	margin-top: 30px;
+	width: 500px;
+	text-align: center;
+}
+
+.roku{
+	height: 510px;
+	width: 920px;
+	margin:0 auto;
+	margin-top: 30px;
+	margin-bottom: 90px;
+
+}
+
+.hako1{
+	height: 250px;
+	width: 300px;
+	margin-right: 10px;
+	float: left;
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.hako2{
+	height: 250px;
+	width: 300px;
+	margin-right: 10px;
+	float: left;
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.hako3{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.hako4{
+	height: 250px;
+	width: 300px;
+	margin-right: 10px;
+	float: left;
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	margin-top: 10px;
+}
+
+.hako5{
+	height: 250px;
+	width: 300px;
+	margin-right: 10px;
+	float: left;
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 10px;
+}
+
+.hako6{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	margin-top: 10px;
+}
+
+.feature{
+	width: 100%;
+	height:100%;
+}
+
+.ftitle{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+	font-weight: bold;
+}
+
+.sankono{
+	margin:0 auto;
+	margin-top: 30px;
+	margin-bottom: 90px;
+	width: 980px;
+}
+
+.s1{
+	width: 320px;
+	height: auto;
+	margin-right: 10px;
+	float: left;
+}
+
+.s2{
+	width: 320px;
+	height: auto;
+	float: left;
+}
+
+.fa-binoculars{
+	font-size: 60px;
+}
+
+.fa-book{
+	font-size: 60px;
+}
+
+.fa-book{
+	font-size: 60px;
+}
+
+.sttl{
+	font-size: 20px;
+	color: #000;
+	margin-top: 10px;
+}
+
+.stxt{
+	font-size: 16px;
+	color: #000;
+	margin-top: 10px;
+}
+
+.Profile{
+	width: 100%;
+	background-color: #ECEFF1;
+	padding-bottom: 90px;
+}
+
+.ptitle{
+	font-size: 32px;
+	color: #000;
+	text-align: center;
+	padding-top: 90px;
+	font-weight: bold;
+}
+
+.pcontents{
+	width: 1024px;
+	margin:0 auto;
+	margin-bottom: 90px;
+}
+
+.p-img{
+	width: 512px;
+	text-align: center;
+	position: relative;
+	float: left;
+}
+
+.pimg{
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	margin-top: 30px;
+}
+
+.pns{
+	width: 512px;
+	height: auto;
+	float: left;
+}
+
+.MyName{
+	font-size: 20px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.nameintro{
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.MySkill{
+	font-size: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.skill{
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.Contact{
+	width: 800px;
+	margin:0 auto;
+}
+
+.ctitle{
+	font-size: 32px;
+	color: #000;
+	margin-top: 90px;
+	text-align: center;
+}
+
+.ctxt{
+	font-size: 16px;
+	color: #000;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.ccontents{
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: 90px;
+	margin-top: 30px;
+}
+
+.cleft{
+	width: 400px;
+	float: left;
+	margin-bottom: 90px;
+	text-align: left;
+}
+
+.Mailttl{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+	position: relative;
+}
+
+.epata{
+	font-size: 16px;
+	margin: 0 auto;
+	position: relative;
+	text-decoration: underline;
+}
+
+.Tellttl{
+	font-size: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+	position: relative;
+}
+
+.durbhash{
+	font-size: 16px;
+	position: relative;
+	text-decoration: underline;
+}
+
+.cright{
+	width: 400px;
+	float: left;
+	margin-bottom: 90px;
+}
+
+.sns{
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+}
+
+.fa-facebook-f{
+	font-size: 50px;
+	margin-right: 20px;
+	margin-top: 5px;
+	float: left;
+	position: relative;
+}
+
+.fa-twitter{
+	font-size: 50px;
+	margin-right: 20px;
+	margin-top: 5px;
+	float: left;
+	position: relative;
+}
+
+.fa-instagram{
+	font-size: 50px;
+	margin-right: 20px;
+	margin-top: 5px;
+	float: left;
+	position: relative;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #EC715F;
+}
+.footer-text{
+	color: #fafafa;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+	header{
+		height: 50px;
+	}
+
+	.contents{
+		width: 90%;
+	}
+
+	.logo{
+		height: 50px;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.burger{
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #FAFAFA;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.list-bar{
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #FAFAFA;
+	}
+
+	.list-bar:first-child{
+		margin-top: 10px;
+	}
+
+
+
+	.main-visual{
+		background-image: url(img/code.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.mvtitle{
+	color: #fafafa;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 200px;}
+
+	.mvtxt{
+	color: #fafafa;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	margin: 0 auto;}
+
+	.portfolio{
+		height: 100%;
+		margin:0 auto;
+
+	}
+
+	.porttitle{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+	font-weight: bold;
+	width: 90%;
+	margin: 0 auto;}
+
+	.ptxt{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 30px;
+		font-size: 90%;
+	}
+
+	.roku{
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 90px;
+
+	}
+
+	.hako1{
+		display: none;
+	}
+
+	.hako3{
+		display: none;
+	}
+
+	.hako5{
+		display: none;
+	}
+
+	.hako2{
+		margin-top: 30px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.hako4{
+		float: none;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	.hako6{
+		float: none;
+		padding-bottom: 90px;
+	}
+
+	.feature{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.sankono{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	.s1{
+		float: none;
+		width: 90%;
+		margin:0 auto;
+		margin-top: 10px;
+	}
+
+	.s2{
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 90px;
+	}
+
+	.stxt{
+		font-size: 90%;
+	}
+
+	.pns{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.p-img{
+		float: none;
+		margin:0 auto;
+		width: 90%;
+	}
+
+	.pcontents{
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.MyName{
+		font-size: 90%;
+		margin:0 auto;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.nameintro{
+		font-size: 90%;
+		margin:0 auto;
+		margin-top: 5px;
+	}
+
+	.MySkill{
+		font-size: 90%;
+		margin:0 auto;
+		margin-top: 20px;
+	}
+
+	.skill{
+		font-size: 90%;
+		margin: 0 auto;
+		margin-top: 5px;
+	}
+
+	.Contact{
+		width: 90%;
+		margin:0 auto;
+	}
+
+	.ccontents{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 90px;
+	}
+
+	.cleft{
+		width: 130px;
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+
+	.cright{
+		float: none;
+		margin: 0 auto;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.fa-facebook-f{
+		float: none;
+		margin: 0 auto;
+		margin-right: 8px;
+	}
+
+	.fa-twitter{
+		margin: 0 auto;
+		margin-right: 8px;
+		float: none;
+	}
+
+	.fa-instagram{
+		margin: 0 auto;
+		float: none;
+	}
+
+
+}
